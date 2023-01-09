@@ -38940,7 +38940,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
-  min-height: 99px;
+  min-height: 131px;
 }
 
 .u-header .u-image-1 {
@@ -38955,7 +38955,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -68px auto 32px calc(((100% - 1140px) / 2) + 390px);
+  margin: -68px auto 60px calc(((100% - 1140px) / 2) + 390px);
 }
 
 .u-header .u-nav-1 {
@@ -38964,7 +38964,7 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
 }
 
-.u-header .u-nav-2 {
+.u-header .u-nav-3 {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
