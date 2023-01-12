@@ -2561,7 +2561,12 @@ a {
   flex: 1;
 }
 .u-form-number .u-input-row .u-input:not(:first-child) {
-  margin-left: 8px;
+  margin-left: 12px;
+}
+.u-form-number.u-form-number-layout-range .u-input-row:after {
+  content: attr(data-value);
+  display: inline-block;
+  margin-left: 12px;
 }
 .u-form-number input[type="number"] {
   width: var(--number-width);
@@ -2572,6 +2577,7 @@ a {
   padding-right: 0;
 }
 .u-form-number-layout-range.u-form-number input[type="range"] {
+  flex-shrink: 1;
   width: var(--range-width);
 }
 .u-form-number-layout-range-number.u-form-number input[type="range"] {
