@@ -20497,6 +20497,7 @@ a.pswp__share--download:hover {
 .u-login {
   display: table;
 }
+.u-form-agree .u-btn,
 .u-table-cell .u-btn,
 .u-text .u-btn {
   display: inline-block;
@@ -20506,6 +20507,7 @@ a.pswp__share--download:hover {
   white-space: normal;
   text-align: inherit;
 }
+.u-form-agree .u-btn.u-button-link,
 .u-table-cell .u-btn.u-button-link,
 .u-text .u-btn.u-button-link {
   display: inline;
@@ -38946,7 +38948,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
-  min-height: 131px;
+  min-height: 99px;
 }
 
 .u-header .u-image-1 {
@@ -38961,7 +38963,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -68px auto 60px calc(((100% - 1140px) / 2) + 390px);
+  margin: -68px auto 0 calc(((100% - 1140px) / 2) + 390px);
 }
 
 .u-header .u-nav-1 {
@@ -38973,25 +38975,52 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
+
+.u-header .u-custom-html-1 {
+  margin-left: calc(((100% - 1140px) / 2) + 998px);
+  margin-top: -57px;
+  margin-bottom: 13px;
+  width: 73px;
+  min-height: 73px;
+  height: auto;
+}
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     margin-top: -68px;
     margin-left: calc(((100% - 940px) / 2) + 390px);
+  }
+
+  .u-header .u-custom-html-1 {
+    margin-left: calc(((100% - 940px) / 2) + 867px);
+    margin-top: -57px;
+    width: 73px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-menu-1 {
     margin-left: calc(((100% - 720px) / 2) + 299px);
   }
+
+  .u-header .u-custom-html-1 {
+    margin-left: calc(((100% - 720px) / 2) + 647px);
+  }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
     margin-left: calc(((100% - 540px) / 2) + 224px);
   }
+
+  .u-header .u-custom-html-1 {
+    margin-left: calc(((100% - 540px) / 2) + 467px);
+  }
 }
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
     margin-left: calc(((100% - 340px) / 2) + 141px);
+  }
+
+  .u-header .u-custom-html-1 {
+    margin-left: calc(((100% - 340px) / 2) + 267px);
   }
 }
  .u-footer {
