@@ -601,12 +601,12 @@
 }
 
 .u-section-5 .u-sheet-1 {
-  min-height: 640px;
+  min-height: 100vh;
 }
 
 .u-section-5 .u-layout-wrap-1 {
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .u-section-5 .u-layout-cell-1 {
