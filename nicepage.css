@@ -23462,7 +23462,7 @@ a.u-button-style.u-border-20 {
 }
 
 .u-header .u-custom-html-1 {
-  margin-left: calc(((100% - 1140px) / 2) + 1025px);
+  margin-left: calc(((100% - 1140px) / 2) + 998px);
   margin-top: -57px;
   margin-bottom: 13px;
   width: 73px;
@@ -23478,49 +23478,34 @@ a.u-button-style.u-border-20 {
   .u-header .u-custom-html-1 {
     margin-left: calc(((100% - 940px) / 2) + 867px);
     margin-top: -57px;
-    margin-bottom: 27px;
     width: 73px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -66px;
-    margin-right: calc(((100% - 720px) / 2) + 256px);
-    margin-left: auto;
+    margin-left: calc(((100% - 720px) / 2) + 299px);
   }
 
   .u-header .u-custom-html-1 {
-    margin-left: calc(((100% - 720px) / 2) + 697px);
-    margin-top: -66px;
-    margin-bottom: 26px;
+    margin-left: calc(((100% - 720px) / 2) + 647px);
   }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
-    margin-top: -50px;
-    margin-right: calc(((100% - 540px) / 2) + 127px);
+    margin-left: calc(((100% - 540px) / 2) + 224px);
   }
 
   .u-header .u-custom-html-1 {
-    margin-left: calc(((100% - 540px) / 2) + 493px);
-    margin-top: -81px;
+    margin-left: calc(((100% - 540px) / 2) + 467px);
   }
 }
 @media (max-width: 575px) {
-   .u-header {
-    min-height: 119px;
-  }
-
   .u-header .u-menu-1 {
-    margin-top: -12px;
-    margin-right: calc(((100% - 340px) / 2));
+    margin-left: calc(((100% - 340px) / 2) + 141px);
   }
 
   .u-header .u-custom-html-1 {
-    margin-left: calc(((100% - 340px) / 2) + 317px);
-    margin-top: -119px;
-    margin-bottom: 46px;
+    margin-left: calc(((100% - 340px) / 2) + 267px);
   }
 }
  .u-footer {
@@ -23528,12 +23513,12 @@ a.u-button-style.u-border-20 {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 45px;
+  min-height: 120px;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 10px auto 0;
+  margin: 49px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -23542,11 +23527,7 @@ a.u-button-style.u-border-20 {
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
-    min-height: 65px;
-  }
-
-  .u-footer .u-text-1 {
-    margin-bottom: 10px;
+    min-height: 76px;
   }
 }
 @media (max-width: 767px) {
