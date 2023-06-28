@@ -40947,7 +40947,7 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         --theme-sheet-width-xl: 1140px;
-        --theme-sheet-width-lg: 601px;
+        --theme-sheet-width-lg: 800px;
         --theme-sheet-width-md: 600px;
         --theme-sheet-width-sm: 500px;
         --theme-sheet-width-xs: 250px;
@@ -41227,7 +41227,6 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-size: 1.125rem;
   text-transform: uppercase;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-3 {
@@ -41261,6 +41260,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-nav-1 {
     font-size: 0.75rem;
+    letter-spacing: normal;
   }
 
   .u-header .u-custom-html-1 {
