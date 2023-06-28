@@ -96,7 +96,11 @@
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 208px;
+    min-height: 247px;
+  }
+
+  .u-section-2 .u-text-5 {
+    margin-top: 20px;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -192,7 +196,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 655px;
-  background-image: url("https://assets.nicepagecdn.com/5a217cfd/5206382/images/Imagen262.png");
+  background-image: url("/images/Imagen262.png");
   background-position: 50% 50%;
 }
 
@@ -277,9 +281,18 @@
     padding-right: 10px;
   }
 
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 636px;
+  }
+
   .u-section-3 .u-container-layout-2 {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .u-section-3 .u-text-1 {
+    width: auto;
+    margin-top: 0;
   }
 }
 
@@ -294,5 +307,16 @@
 
   .u-section-3 .u-image-1 {
     min-height: 391px;
+    order: 1;
+  }
+
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 728px;
+    order: 0;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 11px;
+    padding-right: 11px;
   }
 }

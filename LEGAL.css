@@ -9,10 +9,22 @@
 .u-section-1 .u-text-1 {
   font-weight: 900;
   margin: 30px auto;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3.125rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
 }.u-section-2 .u-sheet-1 {
-  min-height: 2325px;
+  min-height: 1296px;
 }
 
 .u-section-2 .u-text-1 {
-  margin: 15px 0 60px;
+  margin: 15px 0 0;
 }
