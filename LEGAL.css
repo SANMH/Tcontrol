@@ -8,11 +8,16 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 900;
-  font-size: 3.125rem;
   margin: 30px auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3.125rem;
+  }
+}
+
+@media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
   }
